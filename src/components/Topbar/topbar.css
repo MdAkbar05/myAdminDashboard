@@ -1,0 +1,60 @@
+
+:root{
+    --primaryColor:#2A2F4F;
+    --secondaryColor:#917FB3;
+    --lightColor:#E5BEEC;
+    --secondaryLight:#FDE2F3;
+}
+
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: var(--secondaryLight);
+    color: var(--primaryColor);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarWrapper{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+}
+.topbarIconsContainer{
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+    color: #555;
+}
+.topbarIconsContainer .topIconBadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -4px;
+    right: 0px;
+    border-radius: 50%;
+    background-color: var(--lightColor);
+    color: var(--primaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topAvatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}

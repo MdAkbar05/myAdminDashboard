@@ -1,0 +1,13 @@
+
+:root{
+    --primaryColor:#2A2F4F;
+    --secondaryColor:#917FB3;
+    --lightColor:#E5BEEC;
+    --secondaryLight:#FDE2F3;
+}
+
+.home{
+    background-color: var(--lightColor);
+    color: var(--primaryColor);
+    flex: 4;
+}
