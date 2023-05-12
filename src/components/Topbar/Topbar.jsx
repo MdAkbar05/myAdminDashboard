@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 import "./topbar.css";
-import {NotificationsNone, Language , Settings} from '@material-ui/icons';
+import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 
 const Topbar = () => {
   return (
@@ -14,22 +14,25 @@ const Topbar = () => {
         {/* Right Topbar  */}
         <div className="topRight">
           <div className="topbarIconsContainer">
-            <NotificationsNone/>
+            <NotificationsNone />
             <div className="topIconBadge">3</div>
           </div>
           <div className="topbarIconsContainer">
-            <Language/>
+            <Language />
             <div className="topIconBadge">3</div>
           </div>
           <div className="topbarIconsContainer">
-            <Settings/>
+            <Settings />
           </div>
-          <img src="../img/MdAkbar.png" alt="MdAkbar" className="topAvatar" />
+          <img
+            src=".https://mdakbar05.github.io/img/MdAkbar.png"
+            alt="MdAkbar"
+            className="topAvatar"
+          />
         </div>
       </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Topbar
+export default Topbar;
