@@ -25,7 +25,7 @@ const Topbar = () => {
             <Settings />
           </div>
           <img
-            src=".https://mdakbar05.github.io/img/MdAkbar.png"
+            src="https://github.com/MdAkbar05/myAdminDashboard/blob/main/public/img/MdAkbar.png"
             alt="MdAkbar"
             className="topAvatar"
           />
