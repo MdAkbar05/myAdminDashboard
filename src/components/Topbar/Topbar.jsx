@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./topbar.css";
+import akbar from "../Topbar/img/MdAkbar.png";
 import { NotificationsNone, Language, Settings } from "@material-ui/icons";
 
 const Topbar = () => {
@@ -24,11 +25,7 @@ const Topbar = () => {
           <div className="topbarIconsContainer">
             <Settings />
           </div>
-          <img
-            src="https://github.com/MdAkbar05/myAdminDashboard/blob/main/public/img/MdAkbar.png"
-            alt="MdAkbar"
-            className="topAvatar"
-          />
+          <img src={akbar} alt="MdAkbar" className="topAvatar" />
         </div>
       </div>
     </div>
