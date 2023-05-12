@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/myAdminDashboard/static/css/main.6661b06f.css",
+    "main.css": "/myAdminDashboard/static/css/main.df69ffe5.css",
     "main.js": "/myAdminDashboard/static/js/main.164b02a5.js",
     "static/media/MdAkbar.png": "/myAdminDashboard/static/media/MdAkbar.20655ae7ca47de659bdc.png",
     "index.html": "/myAdminDashboard/index.html",
-    "main.6661b06f.css.map": "/myAdminDashboard/static/css/main.6661b06f.css.map",
+    "main.df69ffe5.css.map": "/myAdminDashboard/static/css/main.df69ffe5.css.map",
     "main.164b02a5.js.map": "/myAdminDashboard/static/js/main.164b02a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6661b06f.css",
+    "static/css/main.df69ffe5.css",
     "static/js/main.164b02a5.js"
   ]
 }
