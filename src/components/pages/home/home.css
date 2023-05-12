@@ -11,3 +11,8 @@
     color: var(--primaryColor);
     flex: 4;
 }
+.homeWidget{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}

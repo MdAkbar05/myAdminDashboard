@@ -1,0 +1,51 @@
+
+:root{
+    --primaryColor:#2A2F4F;
+    --secondaryColor:#917FB3;
+    --lightColor:#E5BEEC;
+    --secondaryLight:#FDE2F3;
+}
+
+
+.widgetLM{
+    padding: 10px;
+    flex: 2;
+    box-shadow: 0px 3px 15px 0px var(--secondaryLight);
+}
+.widgetLgTitle{
+    font-weight: 600;
+}
+
+.widgetLmImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.Approved{
+    width: 85px;
+    padding:  5px 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+}
+.Declined{
+    width: 85px;
+    padding:  5px 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(131, 0, 33);
+    color: #fff;
+}
+.Pending{
+    width: 85px;
+    padding:  5px 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 25, 106);
+    color: #fff;
+}
+.widgetLmTr td, th{
+    padding:  10px;
+}
